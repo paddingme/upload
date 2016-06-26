@@ -1,0 +1,31 @@
+{
+  "name": "fine-uploader-demo",
+  "description": "fineuploader 插件 官网： http://fineuploader.com/",
+  "version": "1.0.0",
+  "main": "server.js",
+  "dependencies": {
+    "body-parser": "^1.15.2",
+    "express": "^4.14.0",
+    "mkdirp": "^0.5.1",
+    "multiparty": "^4.1.2",
+    "rimraf": "^2.5.2"
+  },
+  "scripts": {
+    "start": "node server.js"
+  },
+  "devDependencies": {},
+  "author": "paddingme",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/paddingme/upload.git"
+  },
+  "keywords": [
+    "fine-uploader",
+    "demo"
+  ],
+  "bugs": {
+    "url": "https://github.com/paddingme/upload/issues"
+  },
+  "homepage": "https://github.com/paddingme/upload#readme"
+}
