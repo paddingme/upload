@@ -45,7 +45,7 @@ app.listen(port,function(){
 // routes
 app.use(express.static(publicDir));
 app.use("/node_modules", express.static(nodeModulesDir));
-app.use("/", express.static('./client'));
+app.use("/", express.static('./public'));
 app.post("/uploads", onUpload);
 app.delete("/uploads/:uuid", onDeleteFile);
 app.post("/chunksdone", onUploadDone);
